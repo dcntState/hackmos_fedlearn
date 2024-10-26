@@ -1,8 +1,12 @@
-# Hackmos 2024 - FedLearn
-> Privacy-preserving ML Model Training on Warden.
+# FedLearn | Hackmos 2024
+****Privacy-preserving ML Model Training on Warden.**
+**
+## Problem Statement
+Large amounts of data remain untapped in machine learning due to pressing privacy concerns. While federated learning addresses this issue by allowing data to stay with users, its substantial hardware requirements often render participation economically unviable for many. Consequently, valuable data across various domains, including healthcare, finance, and personal information, goes unused. This not only hinders advancements in critical fields but also highlights the urgent need for solutions that enable secure data utilization without compromising privacy.
 
-## TL;DR
-**FedLearn** is an innovative federated learning platform designed to facilitate the secure and efficient training of machine learning models using decentralized technologies. Leveraging the Warden Protocol and the Akash network, FedLearn enables model owners to offer their ML tasks in a marketplace, allowing users to submit data for training without compromising privacy. FedLearn combines cutting-edge technology with robust privacy measures, offering a scalable solution for collaborative ML model training in a decentralized environment.
+## FedLearn Non-technical Overview
+
+**FedLearn** is an innovative federated learning platform designed to facilitate the secure and efficient training of machine learning models using decentralized technologies. Leveraging the Warden Protocol and the Akash network, FedLearn empowers ML Model Owners to offer their ML tasks in a marketplace, allowing users to submit data for training without compromising privacy. FedLearn combines cutting-edge technology with robust privacy measures, offering a scalable solution for collaborative ML model training in a decentralized environment.
 
 **Notable Features:**
 
@@ -15,10 +19,10 @@
 - **Automated Workflows:** The integration of the x/act module enables automated execution of tasks based on predefined triggers, streamlining operations and improving overall efficiency.
 
 
-## Problem
-Large amounts of data remain untapped in machine learning due to pressing privacy concerns. While federated learning addresses this issue by allowing data to stay with users, its substantial hardware requirements often render participation economically unviable for many. Consequently, valuable data across various domains, including healthcare, finance, and personal information, goes unused. This not only hinders advancements in critical fields but also highlights the urgent need for solutions that enable secure data utilization without compromising privacy.
 
-## Technical Overview
+
+
+## FedLearn Technical Overview
 
 ### FedLearn Components and Users
 
