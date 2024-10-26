@@ -1,0 +1,269 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Seite-1" id="Do1Hy1mNwo9MLiIMpw76">
+    <mxGraphModel dx="870" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="400" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="GeAlM4ZpJF1DmoUhWPNW-2" target="GeAlM4ZpJF1DmoUhWPNW-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-14" value="Deploy &lt;br&gt;new instance&lt;br&gt;x/act &amp;amp; x/warden" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GeAlM4ZpJF1DmoUhWPNW-13" vertex="1" connectable="0">
+          <mxGeometry x="0.19" y="4" relative="1" as="geometry">
+            <mxPoint x="-24" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GeAlM4ZpJF1DmoUhWPNW-2" target="GeAlM4ZpJF1DmoUhWPNW-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-22" value="reward user" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GeAlM4ZpJF1DmoUhWPNW-21" vertex="1" connectable="0">
+          <mxGeometry x="-0.0752" y="1" relative="1" as="geometry">
+            <mxPoint x="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-2" value="FedLearn &lt;br&gt;Smart Contract" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Warden&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="230" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-4" value="Akash" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="450" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GeAlM4ZpJF1DmoUhWPNW-5" target="GeAlM4ZpJF1DmoUhWPNW-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-20" value="improved ML Model" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GeAlM4ZpJF1DmoUhWPNW-17" vertex="1" connectable="0">
+          <mxGeometry x="-0.6474" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-23" value="verify &lt;br&gt;improvement" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GeAlM4ZpJF1DmoUhWPNW-17" vertex="1" connectable="0">
+          <mxGeometry x="0.632" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GeAlM4ZpJF1DmoUhWPNW-5" target="GeAlM4ZpJF1DmoUhWPNW-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="279.9999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="250" />
+              <mxPoint x="590" y="250" />
+              <mxPoint x="590" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-19" value="TRAIN ML Model" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GeAlM4ZpJF1DmoUhWPNW-18" vertex="1" connectable="0">
+          <mxGeometry x="-0.093" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-5" value="Akash Compute Provider" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="GeAlM4ZpJF1DmoUhWPNW-6" target="GeAlM4ZpJF1DmoUhWPNW-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-12" value="Signal wilingness &lt;br&gt;to train ML Model&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GeAlM4ZpJF1DmoUhWPNW-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.0057" y="-2" relative="1" as="geometry">
+            <mxPoint x="-25" y="-32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="GeAlM4ZpJF1DmoUhWPNW-6" target="GeAlM4ZpJF1DmoUhWPNW-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="265" y="215" />
+              <mxPoint x="265" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-16" value="submit data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GeAlM4ZpJF1DmoUhWPNW-15" vertex="1" connectable="0">
+          <mxGeometry x="-0.1494" y="-2" relative="1" as="geometry">
+            <mxPoint x="-25" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-6" value="User" style="shape=actor;whiteSpace=wrap;html=1;spacingTop=80;" parent="1" vertex="1">
+          <mxGeometry x="50" y="170" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GeAlM4ZpJF1DmoUhWPNW-7" target="GeAlM4ZpJF1DmoUhWPNW-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-10" value="Instantiate Contract;&lt;br&gt;Put 1000 USD in" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GeAlM4ZpJF1DmoUhWPNW-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.1385" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-7" value="Model Owner" style="shape=actor;whiteSpace=wrap;html=1;spacingTop=90;" parent="1" vertex="1">
+          <mxGeometry x="50" y="20" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-24" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="800" as="sourcePoint" />
+            <mxPoint x="1030" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GeAlM4ZpJF1DmoUhWPNW-29" target="GeAlM4ZpJF1DmoUhWPNW-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="690" as="sourcePoint" />
+            <mxPoint x="1123" y="705.0285714285715" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1030" y="580" />
+              <mxPoint x="1030" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-26" value="instantiate &lt;br&gt;compute environments" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GeAlM4ZpJF1DmoUhWPNW-25" vertex="1" connectable="0">
+          <mxGeometry x="0.19" y="4" relative="1" as="geometry">
+            <mxPoint x="-24" y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="GeAlM4ZpJF1DmoUhWPNW-29" target="GeAlM4ZpJF1DmoUhWPNW-45" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="580" />
+              <mxPoint x="750" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-48" value="trained&lt;br&gt;ML model" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GeAlM4ZpJF1DmoUhWPNW-46" vertex="1" connectable="0">
+          <mxGeometry x="-0.1176" y="-1" relative="1" as="geometry">
+            <mxPoint x="-28" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.739;entryY=0.439;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="GeAlM4ZpJF1DmoUhWPNW-29" target="GeAlM4ZpJF1DmoUhWPNW-42" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="640" />
+              <mxPoint x="760" y="706" />
+              <mxPoint x="682" y="706" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-55" value="receive &lt;br&gt;training rewards" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GeAlM4ZpJF1DmoUhWPNW-54" vertex="1" connectable="0">
+          <mxGeometry x="0.1066" relative="1" as="geometry">
+            <mxPoint x="40" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-29" value="FedLearn &lt;br&gt;Smart Contract" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;fillColor=#cbff94;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="827" y="550" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-30" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Warden&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="850" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-31" value="Akash Network" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="450" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GeAlM4ZpJF1DmoUhWPNW-49" target="GeAlM4ZpJF1DmoUhWPNW-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350" y="669" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1200" y="759" />
+              <mxPoint x="1250" y="759" />
+              <mxPoint x="1250" y="709" />
+            </Array>
+            <mxPoint x="1210" y="739" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-36" value="train ML model" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="GeAlM4ZpJF1DmoUhWPNW-35" vertex="1" connectable="0">
+          <mxGeometry x="-0.093" y="1" relative="1" as="geometry">
+            <mxPoint x="12" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GeAlM4ZpJF1DmoUhWPNW-37" target="GeAlM4ZpJF1DmoUhWPNW-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-51" value="deploy kubernetes pod" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GeAlM4ZpJF1DmoUhWPNW-50" vertex="1" connectable="0">
+          <mxGeometry x="-0.2929" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-37" value="Akash Marketplace" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#ff414c;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="GeAlM4ZpJF1DmoUhWPNW-42" target="GeAlM4ZpJF1DmoUhWPNW-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="695" />
+              <mxPoint x="750" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-53" value="choose &lt;br&gt;compute provider" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GeAlM4ZpJF1DmoUhWPNW-52" vertex="1" connectable="0">
+          <mxGeometry x="-0.4733" y="2" relative="1" as="geometry">
+            <mxPoint x="-36" y="-43" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GeAlM4ZpJF1DmoUhWPNW-42" target="GeAlM4ZpJF1DmoUhWPNW-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="720" />
+              <mxPoint x="1000" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-57" value="provide data &lt;br&gt;to verified pods" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GeAlM4ZpJF1DmoUhWPNW-56" vertex="1" connectable="0">
+          <mxGeometry x="0.0443" y="2" relative="1" as="geometry">
+            <mxPoint x="-77" y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-42" value="User" style="shape=actor;whiteSpace=wrap;html=1;spacingTop=80;strokeColor=none;fillColor=#CBFF94;" parent="1" vertex="1">
+          <mxGeometry x="650" y="680" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GeAlM4ZpJF1DmoUhWPNW-45" target="GeAlM4ZpJF1DmoUhWPNW-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="520" />
+              <mxPoint x="760" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-44" value="initialize &lt;br&gt;ML model training" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GeAlM4ZpJF1DmoUhWPNW-43" vertex="1" connectable="0">
+          <mxGeometry x="-0.1385" y="-1" relative="1" as="geometry">
+            <mxPoint x="11" y="-32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-45" value="Model Owner" style="shape=actor;whiteSpace=wrap;html=1;spacingTop=90;strokeColor=none;fillColor=#CBFF94;" parent="1" vertex="1">
+          <mxGeometry x="650" y="490" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="GeAlM4ZpJF1DmoUhWPNW-49" target="GeAlM4ZpJF1DmoUhWPNW-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="917" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-59" value="submit &lt;br&gt;improved ML model" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GeAlM4ZpJF1DmoUhWPNW-58" vertex="1" connectable="0">
+          <mxGeometry x="0.0237" y="-3" relative="1" as="geometry">
+            <mxPoint x="-10" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-49" value="Akash &lt;br&gt;Compute Provider" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#ff414c;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="679" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-66" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;execute&lt;/span&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.polygon;polyCoords=[[0.25,0],[0.75,0],[1,0.25],[1,0.75],[0.75,1],[0.25,1],[0,0.75],[0,0.25]];polyline=0;spacingLeft=0;spacing=-23;strokeColor=none;fillColor=#8AAD65;rotation=0;fontColor=#FFFFFF;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1155.5" y="750" width="54.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GeAlM4ZpJF1DmoUhWPNW-67" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;verify&lt;/span&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.polygon;polyCoords=[[0.25,0],[0.75,0],[1,0.25],[1,0.75],[0.75,1],[0.25,1],[0,0.75],[0,0.25]];polyline=0;spacingLeft=0;spacing=-23;strokeColor=none;fillColor=#8AAD65;rotation=0;fontColor=#FFFFFF;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="859.75" y="650" width="54.5" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
