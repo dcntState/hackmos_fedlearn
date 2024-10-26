@@ -101,6 +101,10 @@ fn execute_create_akash_instance_for_user(
         .filter(|allowed_providers_list| user_provider_list.contains(allowed_providers_list))
         .cloned() 
         .collect(); 
+
+    // PLACEHOLDER 
+    // Here comes a call to the akash network to create the akash compute instance with one of the matching compute providers
+
     
     let msg = WardenMsg::ExecuteFuture {
         input: to_json_binary(&FutureInput{
@@ -109,7 +113,7 @@ fn execute_create_akash_instance_for_user(
         }).unwrap(),
         output: to_json_binary(&FutureOutput{
             id: count,
-            output: format!("Found matching providers: {:?}.\nDeployed new instance on {:?}", matching_providers, matching_providers.get(0).unwrap_or(&"".to_string())),
+            output: format!("Found matching providers: {:?}.\nDeployed new instance on {:?}.\nWaiting for user to submit the data, that the compute instance can train the ML model.\nSuccessfully received the ML model.", matching_providers, matching_providers.get(0).unwrap_or(&"".to_string())),
         }).unwrap(),
     };
 
@@ -144,4 +148,7 @@ pub fn query(_deps: Deps<WardenProtocolQuery>, _env: Env, msg: QueryMsg) -> StdR
             to_json_binary(&FutureResult{ output })
         }
     }
+
+    // PLACEHOLDER
+    // Here, the user is rewarded with WARP tokens
 }
