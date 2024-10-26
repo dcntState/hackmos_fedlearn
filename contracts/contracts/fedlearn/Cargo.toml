@@ -1,0 +1,31 @@
+[package]
+name = "fedlearn"
+version.workspace = true
+edition = "2021"
+description = "The FedLearn contract holding the ML model, instantiating Akash instances, and rewarding users."
+license = "Apache-2.0"
+repository = "https://github.com/warden-protocol/contracts/"
+homepage = "https://wardenprotocol.org/"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[features]
+# use library feature to disable all instantiate/execute/query exports
+library = []
+test-utils = []
+
+[dependencies]
+cosmwasm-schema = { workspace = true }
+cw2 = { workspace = true }
+cw-storage-plus = { workspace = true }
+bindings = { workspace = true }
+cosmwasm-std = { workspace = true, features = ["staking"] }
+schemars = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }
+
+[dev-dependencies]
+anyhow = "1"
+assert_matches = "1"
+derivative = "2"
