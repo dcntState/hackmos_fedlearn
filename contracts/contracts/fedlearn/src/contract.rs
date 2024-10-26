@@ -14,7 +14,7 @@ use crate::error::ContractError;
 use crate::msg::{ExecuteMsg, FutureResult, QueryMsg};
 
 // version info for migration info
-const CONTRACT_NAME: &str = "crates.io:wardenprotocol-sample";
+const CONTRACT_NAME: &str = "crates.io:wardenprotocol-fedlearn";
 const CONTRACT_VERSION: &str = env!("CARGO_PKG_VERSION");
 
 pub const COUNT: Item<u64> = Item::new("count");
@@ -39,7 +39,7 @@ pub fn execute(
     msg: ExecuteMsg,
 ) -> Result<Response<WardenProtocolMsg>, ContractError> {
     match msg {
-        ExecuteMsg::DoStuff {
+        ExecuteMsg::CreateAkashInstance {
             input
         } => execute_do_stuff(
             deps,

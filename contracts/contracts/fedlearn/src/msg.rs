@@ -3,7 +3,7 @@ use cosmwasm_std::Binary;
 
 #[cw_serde]
 pub enum ExecuteMsg {
-    DoStuff {
+    CreateAkashInstance {
         input: String,
     },
     FutureReady {

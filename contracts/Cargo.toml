@@ -18,7 +18,7 @@ serde = { version = "1.0.188", default-features = false, features = ["derive"] }
 thiserror = "1.0.4"
 
 bindings = { path = "packages/bindings", version = "0.1.0" }
-sample = { path = "contracts/sample", version = "0.1.0", features = [
+fedlearn = { path = "contracts/fedlearn", version = "0.1.0", features = [
   "library",
 ] }
 basic-analyzer = { path = "contracts/basic-analyzer", version = "0.1.0", features = [
@@ -31,7 +31,7 @@ analyzers-core = { path = "lib/analyzers-core", version = "0.1.0", features = [
   "library",
 ] }
 
-[profile.release.package.sample]
+[profile.release.package.fedlearn]
 codegen-units = 1
 incremental = false
 
