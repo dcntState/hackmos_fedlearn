@@ -29,6 +29,10 @@ pub fn instantiate(
     _msg: Empty,
 ) -> StdResult<Response> {
     set_contract_version(deps.storage, CONTRACT_NAME, CONTRACT_VERSION)?;
+
+    let initial_allowed_providers = "akash42;akash1337"; // Replace with your desired providers
+    ALLOWED_PROVIDERS.save(deps.storage, &initial_allowed_providers.to_string())?;
+
     Ok(Response::default())
 }
 
@@ -92,6 +96,11 @@ fn execute_create_akash_instance_for_user(
         .filter(|s| !s.is_empty())
         .map(String::from)
         .collect();
+
+    let matching_providers: Vec<String> = allowed_providers_list.iter()
+        .filter(|allowed_providers_list| user_provider_list.contains(allowed_providers_list))
+        .cloned() 
+        .collect(); 
     
     let msg = WardenMsg::ExecuteFuture {
         input: to_json_binary(&FutureInput{
@@ -100,7 +109,7 @@ fn execute_create_akash_instance_for_user(
         }).unwrap(),
         output: to_json_binary(&FutureOutput{
             id: count,
-            output: format!("I'm the output of an AI model :] Your input length was {:?}.", user_provider_list),
+            output: format!("Found matching providers: {:?}.\nDeployed new instance on {:?}", matching_providers, matching_providers.get(0).unwrap_or(&"".to_string())),
         }).unwrap(),
     };
 
