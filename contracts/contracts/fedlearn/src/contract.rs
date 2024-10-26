@@ -18,6 +18,7 @@ const CONTRACT_NAME: &str = "crates.io:wardenprotocol-fedlearn";
 const CONTRACT_VERSION: &str = env!("CARGO_PKG_VERSION");
 
 pub const COUNT: Item<u64> = Item::new("count");
+pub const ALLOWED_PROVIDERS: Item<String> = Item::new("allowed_providers");
 pub const FUTURES_MAP: Map<u64, String> = Map::new("futures_map");
 
 #[cfg_attr(not(feature = "library"), entry_point)]
@@ -41,7 +42,7 @@ pub fn execute(
     match msg {
         ExecuteMsg::CreateAkashInstance {
             input
-        } => execute_do_stuff(
+        } => execute_create_akash_instance_for_user(
             deps,
             env,
             info,
@@ -70,17 +71,28 @@ struct FutureOutput {
     output: String,
 }
 
-fn execute_do_stuff(
+fn execute_create_akash_instance_for_user(
     deps: DepsMut<WardenProtocolQuery>,
     _env: Env,
     _info: MessageInfo,
     input: String,
 ) -> Result<Response<WardenProtocolMsg>, ContractError> {
     // load the next ID
-    let count = COUNT.may_load(deps.storage)?.unwrap_or(0);
+    let count: u64 = COUNT.may_load(deps.storage)?.unwrap_or(0);
+    let allowed_providers: String = ALLOWED_PROVIDERS.may_load(deps.storage)?.unwrap_or("".to_string());
+    
+    let allowed_providers_list: Vec<String> = allowed_providers.split(';')
+        .map(|s| s.trim())
+        .filter(|s| !s.is_empty())
+        .map(String::from)
+        .collect();
 
-    // prepare the future to be executed
-    let input_length = input.len();
+    let user_provider_list: Vec<String> = input.split(';')
+        .map(|s| s.trim())
+        .filter(|s| !s.is_empty())
+        .map(String::from)
+        .collect();
+    
     let msg = WardenMsg::ExecuteFuture {
         input: to_json_binary(&FutureInput{
             id: count,
@@ -88,7 +100,7 @@ fn execute_do_stuff(
         }).unwrap(),
         output: to_json_binary(&FutureOutput{
             id: count,
-            output: format!("I'm the output of an AI model :] Your input length was {}.", input_length),
+            output: format!("I'm the output of an AI model :] Your input length was {:?}.", user_provider_list),
         }).unwrap(),
     };
 
