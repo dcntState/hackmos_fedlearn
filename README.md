@@ -45,3 +45,44 @@ Large amounts of data remain untapped in machine learning due to pressing privac
 - **x/warden:** FedLearn uses the x/warden module is used to manage keys that trigger transactions on the Akash Network, enabling the asynchronous commissioning and decommissioning of compute environments when federated ML model training is initiated or completed.
 - **Warden Futures Handler:** FedLearn leverages Warden's FUTURES to asynchronously provision compute environments on the Akash network and conduct ML model training. This  enables FedLearn to initiate long-running training processes while receiving callbacks upon completion to verify the improvements in the ML models.
 
+
+
+### Frequently Asked Questions (FAQs)
+
+1. **What is FedLearn?**  
+   FedLearn is a federated learning platform that enables secure and efficient training of ML models while preserving user data privacy. It operates on the Warden Protocol and integrates with the Akash Network.
+
+2. **How does FedLearn ensure data privacy?**  
+   FedLearn allows users to maintain full control over their data by processing their data on verified open-source FedLearn Pods that are operated on user-choosen and trusted compute environments. Only ML model updates are shared, ensuring sensitive data is never disclosed.
+
+3. **What are FedLearn Pods or trusted compute environments?**  
+   FedLearn Pods are trusted compute environments on the Akash Network that users can choose and verify for training ML models based on their data. This ensures that their data is handled securely and reliably.
+
+4. **Do I need to invest in hardware to use FedLearn?**  
+   No, FedLearn eliminates the need for expensive compute hardware. FedLearn leverages the Akash Network for scalable and affordable computing resources.
+
+5. **How does the payment system work?**  
+   FedLearn utilizes micropayments, allowing users to be rewarded for ML model training in small increments. This makes it cost-effective and scalable, accommodating various data amounts, even small amounts.
+
+6. **Who can benefit from using FedLearn?**  
+    FedLearn is advantageous for organizations and individuals across various fields, including healthcare and finance, who wish to train ML models while keeping their data private. By doing so, FedLearn can access a vast amount of data that would otherwise remain untapped.
+
+7. **How is ML model training executed in FedLearn?**  
+   Users receive ML models from model owners, train them using their private data in a trusted environment, and then submit the improved models without sharing their data. The process of creating FedLearn Pods, awaiting model training, and verifying ML model improvements is handled by FedLearn smart contracts on Warden.
+
+8. **Can I verify the security of the compute environments?**  
+  Yes, users can verify the security of trusted compute environments through Cosign. FedLearn Pods are open-source and signed by the FedLearn Foundation, ensuring the integrity of the FedLearn Pod. Users can verify these signatures to confirm that the environments are trustworthy and compliant for processing sensitive data. This process provides confidence in the security of the compute setup.
+  
+9. **How does FedLearn handle model updates?**  
+    Upon completing ML model training, FedLearn utilizes the FUTURES Handler of the Warden Protocol to submit the updated models back to the ML Model Owners. This process allows for the evaluation of model improvements while rewarding Fed Users for their contributions to successful ML model enhancements.
+
+
+
+
+
+
+
+
+
+
+
