@@ -1,6 +1,6 @@
 # FedLearn | Hackmos 2024
-****Privacy-preserving ML Model Training on Warden.**
-**
+**Privacy-preserving ML Model Training on Warden.**
+
 ## Problem Statement
 Large amounts of data remain untapped in machine learning due to pressing privacy concerns. While federated learning addresses this issue by allowing data to stay with users, its substantial hardware requirements often render participation economically unviable for many. Consequently, valuable data across various domains, including healthcare, finance, and personal information, goes unused. This not only hinders advancements in critical fields but also highlights the urgent need for solutions that enable secure data utilization without compromising privacy.
 
@@ -22,7 +22,7 @@ Large amounts of data remain untapped in machine learning due to pressing privac
 
 
 
-## FedLearn Technical Overview
+
 
 ### FedLearn Components and Users
 
@@ -32,10 +32,16 @@ Large amounts of data remain untapped in machine learning due to pressing privac
 - **FedLearn Pods:** FedLearn Pods are open-source Kubernetes pods for ML model training that can be verified by Fed Users through Cosign. Fedlearn Pods provide a trusted compute environment on the Akash Network, allowing Fed Users to confidently submit their data. Fed Users can select the compute provider on the Akash Network hosting their FedLearn Pod to further ensure trust.
 - **FedLearn Commons:** FedLearn Commons are publicly available base ML models (e.g., LLMs) collaboratively trained by the community, offering ML Model Owners high-quality models and reducing individual training costs.
 
+## FedLearn Technical Overview
 
-
-### Exemplary workflow
+### Principal Workflow
 ![alt text](/concept/01_technical_overview.png)
 
-### Sequence Diagramm 
+### Detailed Workflow
 ![alt text](/concept/02_workflow.png)
+
+### Warden Integration
+- **x/act:** Using the x/act module, FedLearn executes actions—such as instantiating secure compute instances and managing model updates—on connected chains based on triggers like training initiation, data submission, and task completion. This automation ensures efficient and timely responses to reduce computation costs.
+- **x/warden:** FedLearn uses the x/warden module is used to manage keys that trigger transactions on the Akash Network, enabling the asynchronous commissioning and decommissioning of compute environments when federated ML model training is initiated or completed.
+- **Warden Futures Handler:** FedLearn leverages Warden's FUTURES to asynchronously provision compute environments on the Akash network and conduct ML model training. This  enables FedLearn to initiate long-running training processes while receiving callbacks upon completion to verify the improvements in the ML models.
+
