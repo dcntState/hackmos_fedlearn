@@ -75,8 +75,7 @@ Large amounts of data remain untapped in machine learning due to pressing privac
   Yes, users can verify the security of trusted compute environments through Cosign. FedLearn Pods are open-source and signed by the FedLearn Foundation, ensuring the integrity of the FedLearn Pod. Users can verify these signatures to confirm that the environments are trustworthy and compliant for processing sensitive data. This process provides confidence in the security of the compute setup.
   
 9. **How does FedLearn handle model updates?**  
-    Upon completing ML model training, FedLearn utilizes the FUTURES Handler of the Warden Protocol to submit the updated models back to the ML Model Owners. This process allows for the evaluation of model improvements while rewarding Fed Users for their contributions to successful ML model enhancements.
-
+    Upon completing ML model training, FedLearn utilizes the FUTURES Handler of the Warden Protocol to submit the updated models back to the ML Model Owners. This process allows for the evaluation of model improvements while rewarding Fed Users for their contributions to successful ML model enhancements. ML Model enhancements are measured using different metrics such as Precision, Recall, F1 and Accuracy. See [Evaluating ML Models](https://medium.com/analytics-vidhya/evaluating-ml-models-precision-recall-f1-and-accuracy-f734e9fcc0d3).
 
 
 
