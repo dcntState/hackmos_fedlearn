@@ -48,7 +48,7 @@ Large amounts of data remain untapped in machine learning due to pressing privac
 ## FedLearn UI Overview
 ![alt text](/concept/03_wireframe.png)
 
-### Frequently Asked Questions (FAQs)
+## Frequently Asked Questions (FAQs)
 
 1. **What is FedLearn?**  
    FedLearn is a federated learning platform that enables secure and efficient training of ML models while preserving user data privacy. It operates on the Warden Protocol and integrates with the Akash Network.
