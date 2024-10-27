@@ -45,7 +45,8 @@ Large amounts of data remain untapped in machine learning due to pressing privac
 - **x/warden:** FedLearn uses the x/warden module is used to manage keys that trigger transactions on the Akash Network, enabling the asynchronous commissioning and decommissioning of compute environments when federated ML model training is initiated or completed.
 - **Warden Futures Handler:** FedLearn leverages Warden's FUTURES to asynchronously provision compute environments on the Akash network and conduct ML model training. This  enables FedLearn to initiate long-running training processes while receiving callbacks upon completion to verify the improvements in the ML models.
 
-
+## FedLearn UI Overview
+![alt text](/concept/03_wireframe.png)
 
 ### Frequently Asked Questions (FAQs)
 
